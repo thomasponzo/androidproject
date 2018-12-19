@@ -1,4 +1,4 @@
-package thomasponzo.examenvoorbereiding.interpface;
+package thomasponzo.examenvoorbereiding.Interface;
 
 import android.view.View;
 
