@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="menuUser">
+        <item>Home</item>
+        <item>Reservering</item>
+        <item>MenuKaart</item>
+        <!--<item>Over</item>-->
+        <!--<item>Account</item>-->
+    </array>
+    
+    <array name="menuServer">
+        <item>Reserveringen</item>
+        <item>bestellingen</item>
+    </array>
+    
+    <array name="menuCooks">
+        <item>Bestellingen</item>
+        <item>Reservering</item>
+        <item>MenuKaart</item>
+    </array>
+
+    <array name="menuCounter">
+        <item>Reserveringen</item>
+        <item>Reservering</item>
+        <item>MenuKaart</item>
+    </array>
+    
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <ImageView
+        android:id="@+id/companylogo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:src="@drawable/companylogowhite" />
+
+
+    <TextView
+        android:id="@+id/duo_view_header_text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/companylogo"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="Thomas Ponzo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/duo_view_header_text_sub_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/duo_view_header_text_title"
+        android:layout_toEndOf="@+id/companylogo"
+        android:paddingLeft="5dp"
+        android:text="owner"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="italic" />
+
+    <View
+        android:id="@+id/duo_view_header_border"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignBottom="@+id/view"
+        android:background="@android:color/white" />
+
+</RelativeLayout>

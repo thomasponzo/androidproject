@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Excelent Taste</string>
+
+    <string name="facebook_application_id" translatable="false" >272473606634683</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb272473606634683</string>
+
+    <string name="twitter_consumer_key" translatable="false">tE2Q2NRAbUVvPJnxwnh7hsANn</string>
+    <string name="twitter_consumer_secret" translatable="false">zpcc1IWgLYrOLuUFlyTp6reBp2DPK44s0bIoS5cysEybern3Pg</string>
+
+    <string name="material_calendar_monday">M</string>
+    <string name="material_calendar_tuesday">D</string>
+    <string name="material_calendar_wednesday">W</string>
+    <string name="material_calendar_thursday">D</string>
+    <string name="material_calendar_friday">V</string>
+    <string name="material_calendar_saturday">S</string>
+    <string name="material_calendar_sunday">Z</string>
+
+    <string name="material_calendar_today_button">Vandaag</string>
+    <string name="material_calendar_positive_button">OK</string>
+    <string name="material_calendar_negative_button">Annuleren</string>
+
+    <array name="material_calendar_months_array">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maart</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Augustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>December</item>
+    </array>
+
+</resources>

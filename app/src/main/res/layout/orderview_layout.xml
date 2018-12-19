@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/drawntable" />
+
+    <TextView
+        android:id="@+id/tablenumberorder"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingBottom="30dp"
+        android:text="15"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView2"
+        android:paddingLeft="10dp"
+        android:src="@drawable/drawnclock" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView2"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingBottom="5dp"
+        android:text="20:30"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <include
+        android:id="@+id/test3"
+        layout="@layout/bestellingregel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tablenumberorder" />
+
+    <include
+        layout="@layout/bestellingregel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/test3" />
+</RelativeLayout>

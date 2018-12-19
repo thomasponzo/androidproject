@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/checktable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="tafel: 3"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/checkdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checktable"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="Datum: 20-03-2016"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/checktime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkdate"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="Tijd: 20:15"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/checkamount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checktime"
+        android:paddingLeft="5dp"
+        android:paddingTop="20dp"
+        android:text="2x"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/checkname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/checkamount"
+        android:layout_toEndOf="@+id/checkamount"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        android:text="2x"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/checkprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/checkname"
+        android:layout_toEndOf="@+id/checkname"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        android:text="2x"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/checktotalprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/checkprice"
+        android:layout_toEndOf="@+id/checkprice"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        android:text="2x"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/checktotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checktotalprice"
+        android:paddingLeft="5dp"
+        android:paddingTop="20dp"
+        android:text="Totaal 13,50"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/checkpayed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checktotal"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="Betaald contant 15,00"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/checkback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkpayed"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="Terug 1,50"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black"
+        android:layout_below="@id/checkback"/>
+
+
+
+</RelativeLayout>

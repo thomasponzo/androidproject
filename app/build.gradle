@@ -1,0 +1,76 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+
+        applicationId "thomasponzo.examenvoorbereiding"
+        minSdkVersion 24
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+        }
+    }
+
+    compileOptions {
+        //Use java version 8
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    //Lottie for animations in the app
+    implementation 'com.airbnb.android:lottie:2.7.0'
+
+    //FirebaseUI for Firebase Storage
+    implementation 'com.firebaseui:firebase-ui-storage:4.2.1'
+
+    // FirebaseUI for Firebase Realtime Database
+    implementation 'com.firebaseui:firebase-ui-database:4.2.1'
+    implementation 'com.google.firebase:firebase-database:11.8.0'
+
+    // FirebaseUI for Firebase Auth
+    implementation 'com.firebaseui:firebase-ui-auth:4.2.1'
+
+    //Facebook SDK
+    implementation 'com.facebook.android:facebook-android-sdk:4.38.1'
+
+    //Twitter SDK
+    implementation 'com.twitter.sdk.android:twitter-core:3.1.1'
+
+    //Dialog library
+    implementation 'com.github.Joinersa:OoOAlertDialog:1.0.3'
+
+    //Navigation drawer library
+    implementation 'nl.psdcompany:duo-navigation-drawer:2.0.8'
+
+    //Date picker library
+    implementation 'com.applandeo:material-calendar-view:1.5.0'
+
+    //Library for the real time
+    implementation 'com.github.instacart.truetime-android:library:3.3'
+
+    //Library for person picker
+    implementation 'com.alex-zaitsev:meternumberpicker:1.0.4'
+
+    //Library for time picker
+    implementation 'com.wdullaer:materialdatetimepicker:2.0.0'
+
+    implementation'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
+
+    //Library for the images
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+}
+apply plugin: 'com.google.gms.google-services'

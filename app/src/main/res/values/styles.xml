@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+        <style name="LoginTheme" parent="FirebaseUI">
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+            <item name="colorButtonNormal">@color/colorAccent</item>
+            <item name="colorControlNormal">@android:color/white</item>
+            <item name="colorControlActivated">@android:color/black</item>
+            <item name="colorControlHighlight">@android:color/white</item>
+            <item name="android:textColor">@android:color/white</item>
+            <item name="android:textColorPrimary">@android:color/white</item>
+            <item name="android:textColorSecondary">@android:color/white</item>
+            <item name="android:windowBackground">@drawable/backgroundlogin</item>
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+            <item name="android:textColorHint">@android:color/white</item>
+        </style>
+
+        <style name="FirebaseUI.Text">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:fontFamily">sans-serif</item>
+            <item name="android:textColor">@android:color/white</item>
+        </style>
+
+        <style name="FirebaseUI.Text.Link">
+            <!--<item name="android:textColor">@color/colorSecondary</item>-->
+        </style>
+
+    <style name="MeterNumberPickerStyle">
+        <item name="mnp_min">0</item>
+        <item name="mnp_max">12</item>
+        <item name="mnp_minWidth">10dp</item>
+        <item name="mnp_minHeight">10dp</item>
+        <item name="mnp_textColor">@android:color/black</item>
+        <item name="mnp_textSize">25sp</item>
+        <item name="mnp_paddingHorizontal">10dp</item>
+        <item name="mnp_paddingVertical">10dp</item>
+    </style>
+
+    <style name="MeterViewStyle">
+        <item name="mv_firstColor">@android:color/darker_gray</item>
+        <item name="mv_numberOfFirst">1</item>
+        <item name="mv_numberOfSecond">0</item>
+        <item name="mv_pickerStyle">@style/MeterNumberPickerStyle</item>
+        <item name="mv_secondColor">@color/colorPrimary</item>
+        <item name="mv_enabled">true</item>
+    </style>
+
+
+</resources>
